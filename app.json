@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "score_tracker_app",
+    "slug": "score_tracker_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo1.png",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#5d34a5"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier":"com.Rudrascoretrackerapp"
+    },
+    "android": {
+  
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.Rudrascoretrackerapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
